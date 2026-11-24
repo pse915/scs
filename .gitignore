@@ -1,0 +1,25 @@
+# Python 가상환경 및 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# 민감한 인증 정보 및 비밀 키 (절대 GitHub에 업로드 금지)
+.streamlit/secrets.toml
+*.pem
+*service_account*.json
+*credentials*.json
+
+# Node.js 의존성 (단, 빌드 결과물인 frontend/dist/ 는 배포를 위해 추적 허용)
+frontend/node_modules/
+frontend/.vite/
+npm-debug.log*
+
+# 내보내기 임시 파일 및 OS 파일
+*.xlsx
+*.csv
+.DS_Store
+Thumbs.db

@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "globalStyles": {
+    "backgroundColor": "#F5F5F7",
+    "maxWidth": "1040px"
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "id": "hero-notice-1",
+          "type": "notice",
+          "props": {
+            "title": "학교 위(Wee)클래스 · 상담실 안내",
+            "customText": "",
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E5E5EA",
+            "accentColor": "#0071E3",
+            "borderRadius": 18,
+            "padding": "18px 24px",
+            "marginTop": 0,
+            "marginBottom": 24,
+            "visible": true
+          }
+        },
+        {
+          "id": "hero-card-1",
+          "type": "card",
+          "props": {
+            "backgroundColor": "#FFFFFF",
+            "padding": "40px 32px",
+            "borderRadius": 24,
+            "border": "1px solid rgba(0, 0, 0, 0.05)",
+            "boxShadow": "0 8px 30px rgba(0, 0, 0, 0.04)",
+            "width": "100%",
+            "marginTop": 0,
+            "marginBottom": 24,
+            "visible": true
+          },
+          "children": [
+            {
+              "id": "hero-heading-1",
+              "type": "heading",
+              "props": {
+                "text": "언제든 편하게 마음을 나누세요",
+                "fontSize": 32,
+                "fontWeight": "700",
+                "color": "#1D1D1F",
+                "alignment": "center",
+                "marginTop": 0,
+                "marginBottom": 12,
+                "visible": true
+              }
+            },
+            {
+              "id": "hero-text-1",
+              "type": "text",
+              "props": {
+                "text": "진로·진학, 학업 고민, 교우관계, 정서·심리 등 혼자 고민하지 말고 상담 선생님과 함께 이야기해요.\n모든 상담 신청과 대화 내용은 철저하게 비밀이 보장됩니다.",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "color": "#6E6E73",
+                "alignment": "center",
+                "marginTop": 0,
+                "marginBottom": 24,
+                "visible": true
+              }
+            },
+            {
+              "id": "hero-apply-btn-1",
+              "type": "apply_button",
+              "props": {
+                "text": "온라인 상담 신청하기",
+                "backgroundColor": "#0071E3",
+                "color": "#FFFFFF",
+                "fontSize": 17,
+                "fontWeight": "600",
+                "borderRadius": 980,
+                "padding": "15px 34px",
+                "alignment": "center",
+                "actionType": "OPEN_APPLY_MODAL",
+                "marginTop": 4,
+                "marginBottom": 0,
+                "visible": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "stats-cols-1",
+          "type": "columns_3",
+          "props": {
+            "gap": 16,
+            "marginTop": 0,
+            "marginBottom": 24,
+            "visible": true
+          },
+          "children": [
+            {
+              "id": "stat-card-1",
+              "type": "stat_card",
+              "props": {
+                "title": "비밀 보장 원칙",
+                "statValue": "100%",
+                "description": "상담 신청 내용과 대화 기록은 법령이 정한 예외 외에 외부에 공개되지 않습니다.",
+                "backgroundColor": "#FFFFFF",
+                "accentColor": "#0071E3",
+                "borderRadius": 18,
+                "padding": "22px",
+                "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.03)",
+                "visible": true
+              }
+            },
+            {
+              "id": "stat-card-2",
+              "type": "stat_card",
+              "props": {
+                "title": "맞춤형 상담 분야",
+                "statValue": "6개 영역",
+                "description": "진로, 학업, 교우관계, 가족, 심리·정서, 학교생활 전반을 지원합니다.",
+                "backgroundColor": "#FFFFFF",
+                "accentColor": "#34C759",
+                "borderRadius": 18,
+                "padding": "22px",
+                "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.03)",
+                "visible": true
+              }
+            },
+            {
+              "id": "stat-card-3",
+              "type": "stat_card",
+              "props": {
+                "title": "간편 일정 조율",
+                "statValue": "희망 시간 선택",
+                "description": "점심시간, 쉬는 시간, 방과 후 중 편한 시간을 선택해 신청할 수 있습니다.",
+                "backgroundColor": "#FFFFFF",
+                "accentColor": "#FF9500",
+                "borderRadius": 18,
+                "padding": "22px",
+                "boxShadow": "0 2px 12px rgba(0, 0, 0, 0.03)",
+                "visible": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "guide-cols-1",
+          "type": "columns_2",
+          "props": {
+            "gap": 20,
+            "marginTop": 0,
+            "marginBottom": 20,
+            "visible": true
+          },
+          "children": [
+            {
+              "id": "guide-hours-1",
+              "type": "counseling_guide",
+              "props": {
+                "guideType": "operating_hours",
+                "title": "상담 가능 시간 및 운영 안내",
+                "customText": "",
+                "backgroundColor": "#FFFFFF",
+                "color": "#1D1D1F",
+                "borderRadius": 20,
+                "padding": "26px",
+                "boxShadow": "0 2px 14px rgba(0, 0, 0, 0.03)",
+                "visible": true
+              }
+            },
+            {
+              "id": "guide-precautions-1",
+              "type": "counseling_guide",
+              "props": {
+                "guideType": "precautions",
+                "title": "상담 신청 시 주의사항",
+                "customText": "",
+                "backgroundColor": "#FFFFFF",
+                "color": "#1D1D1F",
+                "borderRadius": 20,
+                "padding": "26px",
+                "boxShadow": "0 2px 14px rgba(0, 0, 0, 0.03)",
+                "visible": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "guide-completion-1",
+          "type": "counseling_guide",
+          "props": {
+            "guideType": "completion_guide",
+            "title": "상담 신청 완료 후 절차",
+            "customText": "",
+            "backgroundColor": "#FFFFFF",
+            "color": "#1D1D1F",
+            "borderRadius": 20,
+            "padding": "26px",
+            "boxShadow": "0 2px 14px rgba(0, 0, 0, 0.03)",
+            "marginTop": 0,
+            "marginBottom": 0,
+            "visible": true
+          }
+        }
+      ]
+    }
+  }
+}

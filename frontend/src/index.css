@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard Variable", Pretendard,
+    "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  background-color: #F5F5F7;
+  color: #1D1D1F;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  color: #1D1D1F;
+}
+
+.btn-primary {
+  background-color: #0071E3;
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 980px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(0, 113, 227, 0.25);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #0077ED;
+  transform: translateY(-1px);
+}
